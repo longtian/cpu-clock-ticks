@@ -22,6 +22,10 @@ Normally it will be 100HZ.
 ## License
 MIT
 
+### Command Line
+```shell
+getconf CLK_TCK
+```
 
 ```js
 var parser = require('..');
