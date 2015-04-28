@@ -1,6 +1,6 @@
 {
   "name": "cpu-clock-ticks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "pure javascript implememtation to get `sysconf(_SC_CLK_TCK))` value",
   "main": "index.js",
   "scripts": {
