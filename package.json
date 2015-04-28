@@ -4,7 +4,11 @@
   "description": "pure javascript implememtation to get `sysconf(_SC_CLK_TCK))` value",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha"
+    "test": "./node_modules/.bin/mocha",
+    "test-ci": "./node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha --report lcovonly  -- --reporter dot test/"
+  },
+  "engines": {
+    "node": ">=0.8.x"
   },
   "repository": {
     "type": "git",
@@ -13,7 +17,8 @@
   "keywords": [
     "CPU",
     "clock",
-    "ticks"
+    "ticks",
+    "_SC_CLK_TCK"
   ],
   "author": "wyvernnot <wyvernnot@gmail.com>",
   "license": "MIT",
@@ -22,6 +27,7 @@
   },
   "homepage": "https://github.com/wyvernnot/cpu-clock-ticks",
   "devDependencies": {
-    "mocha": "^2.2.4"
+    "mocha": "1.21.5",
+    "istanbul": "0.2.16"
   }
 }
