@@ -8,30 +8,26 @@ pure javascript implementation to get `sysconf(_SC_CLK_TCK))` value
 [![Linux Build][travis-image]][travis-url]
 [![Test Coverage][coveralls-image]][coveralls-url]
 
-## Usage
+## Sample Code
 
 ```javascript
 var cct=require('cpu-clock-ticks');
 console.log('Clock ticks for CPU is %d HZ',cct());
 ```
+
 Normally it will be 100HZ.
 
 ## Inspiration
 [node-usage](https://github.com/arunoda/node-usage)
 
-## License
-MIT
-
-### Command Line
+## Validation
+Execute following command will return `_SC_CLK_TCK`
 ```shell
 getconf CLK_TCK
 ```
 
-```js
-var parser = require('..');
-parser(INPUT_FILE, OUTPUT_FILE);
-```
-
+## License
+MIT
 
 [npm-image]: https://img.shields.io/npm/v/cpu-clock-ticks.svg
 [npm-url]: https://npmjs.org/package/cpu-clock-ticks
