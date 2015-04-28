@@ -1,0 +1,27 @@
+{
+  "name": "cpu-clock-ticks",
+  "version": "1.0.0",
+  "description": "pure javascript implememtation to get `sysconf(_SC_CLK_TCK))` value",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wyvernnot/cpu-clock-ticks.git"
+  },
+  "keywords": [
+    "CPU",
+    "clock",
+    "ticks"
+  ],
+  "author": "wyvernnot <wyvernnot@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wyvernnot/cpu-clock-ticks/issues"
+  },
+  "homepage": "https://github.com/wyvernnot/cpu-clock-ticks",
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  }
+}
