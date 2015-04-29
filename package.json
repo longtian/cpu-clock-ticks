@@ -1,6 +1,6 @@
 {
   "name": "cpu-clock-ticks",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "pure javascript implememtation to get `sysconf(_SC_CLK_TCK))` value",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,9 @@
   "engines": {
     "node": ">=0.8.x"
   },
-  "os": ["linux"],
+  "os": [
+    "linux"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/wyvernnot/cpu-clock-ticks.git"
