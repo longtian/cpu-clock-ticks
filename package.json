@@ -10,6 +10,7 @@
   "engines": {
     "node": ">=0.8.x"
   },
+  "os": ["linux"],
   "repository": {
     "type": "git",
     "url": "https://github.com/wyvernnot/cpu-clock-ticks.git"

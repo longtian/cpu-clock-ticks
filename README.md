@@ -20,6 +20,9 @@ Normally it will be 100HZ.
 ## Inspiration
 [node-usage](https://github.com/arunoda/node-usage)
 
+## Limitation
+Works only on Linux ( tested on `Ubuntu` and `CentOS` ), because the code assumes `/proc/{pid}/stat` exists.
+
 ## Validation
 Execute following command will return `_SC_CLK_TCK`
 ```shell
